@@ -1,5 +1,6 @@
 import telebot
-token = '2113158312:AAFXWI22tksl4w4gBbm2rlaQSyyk7Jt3cI4'
+TOKEN = '2113158312:AAFXWI22tksl4w4gBbm2rlaQSyyk7Jt3cI4'
+APP_NAME = 'mighty-plateau-22089'
 bot=telebot.Telebot(token)
 @bot.message_handler(commands=['start'])
 def start_message(message):
